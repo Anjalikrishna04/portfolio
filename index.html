@@ -10,66 +10,63 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">ANJALI KRISHNA</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-disabled="true">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-disabled="true">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <body><nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">ANJALIKRISHNA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skill">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
     <!-- navbar end -->
 
     <!-- home start -->
-    <section class="home" id="home">
-        
-      <div class="name" id="name">
-        <h1>Anjali</h1>
-        <span>fullstack developer</span>
+    <section data-aos-duration="1000" class="home" id="home">
+      <div data-aos="fade-up" class="name" id="name">
+        <h1>Anjali Krishna</h1>
+        <h3>A Passionate Fullstack Developer</h3>
       </div>
-      <div class="img" >
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCTE_YgtABfE0kZPFqxmcQ3x1Zw14lxhiaBg&s" alt="">
+      <div  class="home-img">
+        <img src="img1.jpg" alt="An image of Anjali Krishna" />
       </div>
+      <div class="home-sci">
+        <a href="https://www.linkedin.com/in/anjali-krishna-v-660a17349/"><box-icon type='logo' name='linkedin-square'><i class='bx bxl-linkedin' ></i></box-icon></a>
+        <a href="https://www.instagram.com/anjali_krishna04_/"><box-icon type='logo' name='instagram'></box-icon><i class='bx bxl-instagram' ></i></a>
+        <a href="https://github.com/Anjalikrishna04"><box-icon type='logo' name='github'><i class='bx bxl-github' ></i></box-icon></a>
+    </div>
     </section>
+    
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js">
-
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
