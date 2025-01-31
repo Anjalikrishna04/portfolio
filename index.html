@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
   <body><nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="#">ANJALIKRISHNA</a>
@@ -48,7 +49,7 @@
         <h3>A Passionate Fullstack Developer</h3>
       </div>
       <div  class="home-img">
-        <img src="img4.jpg" alt="An image of Anjali Krishna" />
+        <img src="img.4.jpg" alt="An image of Anjali Krishna" />
       </div>
       <div class="home-sci">
         <a href="https://www.linkedin.com/in/anjali-krishna-v-660a17349/"><box-icon type='logo' name='linkedin-square'><i class='bx bxl-linkedin' ></i></box-icon></a>
@@ -66,15 +67,15 @@
     <!-- about start -->
     <section class="about" id="about">
       <div class="container">
-        <h2 class="heading">About <span>Me</span></h2>
+        <h2 class="heading" data-aos="fade-up" data-aos-duration="1000">About <span>Me</span></h2>
         <div class="row align-items-center">
           <div class="col-lg-4">
-            <div class="about-img">
+            <div class="about-img" data-aos="fade-right" data-aos-duration="1000">
               <img src="img3.png" alt="About Me Image">
             </div>
           </div>
           <div class="col-lg-8">
-            <div class="about-content">
+            <div class="about-content" data-aos="fade-left" data-aos-duration="1000">
               <h3>FULL STACK DEVELOPER!</h3>
               <p>
                 I am a passionate Fullstack Developer. I am a quick learner and
@@ -87,8 +88,135 @@
         </div>
       </div>
     </section>
+    <!-- About end  -->
+
+    <!-- skills start -->
+
+    <section class="skills" id="skills">
+
+      <div class="container">
+        <h2>My <span> Skills</span> </h2>
+        <div class="grid">
+            <div class="skill-card">
+                <i class="fab fa-html5 icon html"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt icon css"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js icon js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-bootstrap icon bootstrap"></i>
+                <p>Bootstrap</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-git-alt icon git"></i>
+                <p>Git</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-comments icon communication"></i>
+                <p>Communication</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- skills end -->
+
+
+    <!-- QUALIFICATION SECTION START -->
+<!-- QUALIFICATION SECTION START -->
+<section id="qualifications" class="py-5 ">
+  <div class="container py-5">
+    <h2 class="text-center text-light pb-5  ">Qualifications</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100 " data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="800" id="qualification1">
+          <div class="card-body">
+            <h5 class="card-title">S S L C</h5>
+            <p class="card-text">Kerala State Board</p>
+            <p class="card-text">2017</p>
+            <p class="card-text">Secondary School Leaving Certificate, represents the completion of secondary education and serves as a foundational credential for further academic or vocational pursuits</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100  bdorder-5 border-info" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="800" id="qualification3">
+          <div class="card-body">
+            <h5 class="card-title">plustwo</h5>
+            <p class="card-text">HSS sreekrishnapuram</p>
+            <p class="card-text">2019</p>
+            <p class="card-text">Plus two science education focuses on advanced scientific concepts and practical applications, preparing students for further studies or careers in fields such as engineering or research <p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100  bdorder-5 border-info" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="800" id="qualification3">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor Of Computer science</h5>
+            <p class="card-text">Calicut University</p>
+            <p class="card-text">2022</p>
+            <div class="card-text">
+              <p>A Bachelor of Science in Computer Science (CS) equips students with the foundational knowledge and practical skills necessary to understand and innovate in the rapidly evolving field of computing.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+<!-- QUALIFICATION SECTION END -->
+
+
+
+
+    <!-- projects start --> 
+     
     
+     <!-- project end -->
+
+     <!-- contact start -->
+     <section class="contact" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="card shadow">
+              <div class="card-body p-4">
+                <h2 class="card-title text-center mb-4">Contact <span> Me </span></h2>
+                <form action="https://formsubmit.co/your-email@example.com" method="POST">
+                  <!-- Name Field -->
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                  <!-- Email Field -->
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
           
+                  <!-- Message Field -->
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                  </div>
+                  <!-- Submit Button -->
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+
+      <!-- contact end -->
 
     
 
@@ -112,5 +240,6 @@
   });
 })();
 </script>
+
   </body>
 </html>
