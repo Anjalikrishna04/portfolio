@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -168,7 +169,7 @@ h3 {
     height: 30px;
     font-size: 14px;
   }
-  
+
   /* Home Section */
 .home {
   min-height: 100vh;
@@ -323,21 +324,7 @@ h3 {
 span {
   color: var(--secondary-color);
 }
-.button-container {
-  display: flex;
-  align-items: center; /* Aligns with text vertically */
-  gap: 20px; /* Adds space between buttons */
-  margin-top: 20px; /* Adjust spacing from text */
-}
 
-/* Ensure the parent container of name and buttons uses flex */
-.home-content {
-  display: flex;
-  align-items: center; /* Aligns text and buttons properly */
-  gap: 40px; /* Adjusts space between name and buttons */
-}
-
-/* Button Styling */
 .btn-custom {
   padding: 12px 24px;
   font-size: 18px;
@@ -361,7 +348,6 @@ span {
   background: linear-gradient(to right, #28a745, #20c997);
   color: white;
 }
-
 
 .button-container {
   position: absolute;
@@ -469,7 +455,7 @@ h2 {
   display: grid;
             grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
             gap: 20px;
-            justify-content: center;
+            justify-content: center;
 }
 .skill-card {
   background: white;
