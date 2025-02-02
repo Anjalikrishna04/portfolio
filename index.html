@@ -15,7 +15,9 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
-  <body><nav class="navbar navbar-expand-lg navbar-dark">
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="#">ANJALIKRISHNA</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,7 +31,7 @@
           <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#skill">Skills</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#projects">Projects</a>
@@ -128,7 +130,7 @@
     <!-- skills end -->
 
 
-    <!-- QUALIFICATION SECTION START -->
+
 <!-- QUALIFICATION SECTION START -->
 <section id="qualifications" class="py-5 ">
   <div class="container py-5">
@@ -174,10 +176,42 @@
 
 
 
-    <!-- projects start --> 
-     
+    <!-- PROJECT SECTION START -->
+  <section id="projects" class="py-5 ">
+    <div class="container py-5">
+      <h2 class="text-center text-light pb-5 ">Projects</h2>
+      <p class="text-center text-light pb-3 text-capitalize">A showcase of my work and projects.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card bdorder-5 border-danger " id="project1" data-aos="zoom-out-right" data-aos-duration="1000">
+            <img src="project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <p class="card-text">paytm ui using html and css</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bdorder-5 border-danger" id="project2" data-aos="fade-up" data-aos-duration="1000">
+   <a href="https://anjali-bankbalance.netlify.app/">  <img src="project2.jpg" class="card-img-top" alt="Project 2"></a>
+            <div class="card-body">
+              <p class="card-text">W3schools Navigation Bar</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bdorder-5 border-danger" id="project3"  data-aos="zoom-out-right" data-aos-duration="1000">
+           <a href="https://anjalikrishna.netlify.app/"> <img src="Project3.png" class="card-img-top" alt="Project 3"></a>
+            <div class="card-body">
+              <p class="card-text"> my personal portfolio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+  <!-- PROJECT SECTION END -->
     
-     <!-- project end -->
 
      <!-- contact start -->
      <section class="contact" id="contact">
@@ -187,7 +221,7 @@
             <div class="card shadow">
               <div class="card-body p-4">
                 <h2 class="card-title text-center mb-4">Contact <span> Me </span></h2>
-                <form action="https://formsubmit.co/your-email@example.com" method="POST">
+                <form id="contact-form">
                   <!-- Name Field -->
                   <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
@@ -206,7 +240,7 @@
                   </div>
                   <!-- Submit Button -->
                   <div class="d-grid">
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary" onclick="sendMail()">Send Message</button>
                   </div>
                 </form>
               </div>
@@ -217,6 +251,31 @@
      </section>
 
       <!-- contact end -->
+
+<!-- footer start -->
+<footer class="footer bg-dark pt-3 text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>Thank You For Visiting</h2>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact Me</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: anjalikrishna0704@gmail.com</li>
+                        <li>Address: palakkad,kerala,india</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>©2025 anjalikrishna. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+ <!-- footer end -->
+    
+  
 
     
 
